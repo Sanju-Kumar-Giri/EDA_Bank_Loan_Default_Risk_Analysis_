@@ -55,8 +55,11 @@ pip install -r requirements.txt
 
 # Technology
 Windows/Linux/macOS
+
 Jupyter Notebook/Google Colab/PyCharm
+
 Programming Language: Python
+
 Library: Numpy, Pandas, Seaborn, Matplotlib
 
 # Conclusion
