@@ -64,37 +64,63 @@ After analysing the datasets, there are few attributes of a client with which th
 
 ## Decisive Factors for an applicant to be Re-payer, hence applications can be approved
 AMT_INCOME_TOTAL:Applicants with Income more than 700,000 are less likely to default
+
 CNT_CHILDREN: Applicants with zero to two children tend to repay the loans.
+
 DAYS_BIRTH: Applicants above age of 50 have low probability of defaulting.
+
 DAYS_EMPLOYED: Applicants with 40+ year experience having less than 1% default rate
+
 NAME_CASH_LOAN_PURPOSE: Loans bought for Hobby, Buying garage are being repayed mostly.
+
 NAME_EDUCATION_TYPE: Academic degree has less defaults.
+
 NAME_INCOME_TYPE: Student and Businessmen have no defaults.
+
 ORGANIZATION_TYPE: Applicants with Trade Type 4 and 5 and Industry type 8 have defaulted less than 3%.
+
 REGION_RATING_CLIENT: Applicants who live in areas with Region Rating 1 are safe borrowers.
 
 ## Decisive Factors for an applicant to be a potential Defaulter, hence application can be rejected :
 AMT_GOODS_PRICE: When the credit amount goes beyond 3M, there is an increase in defaulters.
+
 CODE_GENDER: Male applicants have relatively higher default rate
+
 CNT_CHILDREN : Applicants who have children equal to or more than 9 default 100% and hence their applications can to be rejected.
+
 CNT_FAM_MEMBERS: Applicants who have higher family members (>=11) have higher default rate and their applications can be rejected.
+
 DAYS_BIRTH: Avoid young applicants who are in age group of 20-40 as they have higher probability of defaulting
+
 DAYS_EMPLOYED: Applicants who have less than 5 years of employment have high default rate.
+
 NAME_EDUCATION_TYPE: Applicants with Lower Secondary, Secondary education and incomplete higher education have higher default rate
+
 NAME_FAMILY_STATUS : Applicants in civil marriage or who are single have higher default rate
+
 NAME_INCOME_TYPE: Applicants who are either at Maternity leave or Unemployed have higher default rate.
+
 OCCUPATION_TYPE: Applicants who are Low-skill Laborers, Drivers and Waiters/barmen staff, Security staff, Laborers and Cooking staff as the default rate is huge.
-ORGANIZATION_TYPE: Organizations with highest percent of loans not repaid are Transport: type 3 (16%), Industry: type 13 (13.5%), Industry: type 8 (12.5%) and Restaurant (less than 12%). Self-employed people have relative high defaulting rate, and thus should be avoided to be approved for loan or provide loan with higher interest rate to mitigate the risk of defaulting.
+
+ORGANIZATION_TYPE: Organizations with highest percent of loans not repaid are Transport: type 3 (16%), Industry: type 13 (13.5%), Industry: type 8 (12.5%) and Restaurant (less 
+than 12%). Self-employed people have relative high defaulting rate, and thus should be avoided to be approved for loan or provide loan with higher interest rate to mitigate the risk of defaulting.
+
 REGION_RATING_CLIENT: Applicants who live in areas with Region Rating as 3 has highest defaults.
 
 ## Decisive attributes for an potential defaulters who can be considered for loan with higher interest to mitigate any default risk to prevent business loss:
 AMT_CREDIT: Applicants who get loan for 300-600k tend to default more than others and hence having higher interest specifically for this credit range would be ideal.
+
 AMT_INCOME: Since 90% of the applications have Income total less than 300,000 and they have high probability of defaulting, they could be offered loan with higher interest compared to other income category.
+
 CNT_CHILDREN : Applicants who have 4 to 8 children have a very high default rate and hence higher interest should be imposed on their loans.
+
 CNT_FAM_MEMBERS :Applicants with family members between 8 to 10 have a very high default rate and hence higher interest should be imposed on their loans.
+
 NAME_CASH_LOAN_PURPOSE: Loan taken for the purpose of Repairs seems to have highest default rate. A very high number applications have been rejected by bank or refused by client in previous applications as well which has purpose as repair or other. This shows that purpose repair is taken as high risk by bank and either they are rejected, or bank offers very high loan interest rate which is not feasible by the clients, thus they refuse the loan. The same approach could be followed in future as well.
+
 NAME_HOUSING_TYPE: High number of loan applications are from the category of people who live in Rented apartments & living with parents and hence offering the loan would mitigate the loss if any of those default.
 
 ## More suggestions:
 90% of the previously cancelled client have actually repayed the loan. Recording the reason for cancellation which might help the bank to determine and negotiate terms with these repaying customers in future for increase business opportunity.
+
 88% of the clients who were refused by bank for loan earlier have now turned into a repaying client. Hence documenting the reason for rejection could mitigate the business loss and these clients could be contacted for further loans.
