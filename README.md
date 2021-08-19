@@ -1,5 +1,6 @@
 # EDA_Bank_Loan_Default_Risk_Analysis
 
+# Overview
 Introduction This case study aims to give you an idea of applying EDA in a real business scenario. In this case study, apart from applying the techniques that you have learnt in the EDA module, you will also develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
 
 Business Understanding The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it as their advantage by becoming a defaulter. Suppose you work for a consumer finance company which specialises in lending various types of loans to urban customers. You have to use EDA to analyse the patterns present in the data. This will ensure that the applicants capable of repaying the loan are not rejected.
@@ -43,3 +44,19 @@ Dataset Download This dataset has 3 files as explained below:
     2)'previous_application.csv' contains information about the client’s previous loan data. It contains the data whether the previous application had been Approved, Cancelled, Refused or Unused offer.
 
     3)'columns_description.csv' is data dictionary which describes the meaning of the variables.
+
+# Motivation
+I started to learn Data science to explore my carrier in Data world. I learned different methodologies and tools to achieve and solve real world problems. Finally it is important to work on application (real world application) to actually make a difference.
+
+# Installation
+The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
+
+pip install -r requirements.txt
+
+# Technology
+Windows/Linux/macOS
+Jupyter Notebook/Google Colab/PyCharm
+Programming Language: Python
+Library: Numpy, Pandas, Sklearn, Operator, TPOT
+
+# Conclusion
