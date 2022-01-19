@@ -54,7 +54,7 @@ The Code is written in Python 3.6.10. If you don't have Python installed you can
 pip install -r requirements.txt
 
 # 🛠⚙ Technology
-Windows/Linux/macOS
+Windows
 
 Jupyter Notebook/Google Colab/PyCharm
 
